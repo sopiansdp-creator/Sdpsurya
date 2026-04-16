@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YUPRA CLOUD</title>
+<style>
+body {
+  background:#0d1117;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+.box {
+  border:1px solid #444;
+  padding:20px;
+  margin:20px;
+}
+button {
+  padding:10px 20px;
+  margin:10px;
+  font-size:16px;
+}
+.start {background:blue;color:white;}
+.restart {background:gray;color:white;}
+.stop {background:red;color:white;}
+</style>
+</head>
+
+<body>
+
+<h1>YUPRA CLOUD</h1>
+
+<div class="box">
+<p id="info">Loading...</p>
+</div>
+
+<button class="start" onclick="fetch('/start',{method:'POST'})">Start</button>
+<button class="restart" onclick="fetch('/restart',{method:'POST'})">Restart</button>
+<button class="stop" onclick="fetch('/stop',{method:'POST'})">Stop</button>
+
+<script>
+async function load() {
+  const res = await fetch('/api/info');
+  const data = await res.json();
+
+  document.getElementById("info").innerHTML = `
+  Time: ${data.time}<br>
+  OS: ${data.os}<br>
+  CPU: ${data.cpu}<br>
+  RAM: ${data.ram}/${data.totalRam}
+  `;
+}
+setInterval(load, 2000);
+load();
+</script>
+
+</body>
+</html>
+

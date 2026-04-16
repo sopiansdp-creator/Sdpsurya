@@ -1,0 +1,778 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/bot-wa/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install @whiskeysockets/baileys
+8 verbose argv "install" "@whiskeysockets/baileys"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-04-16T20_45_10_837Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-04-16T20_45_10_837Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:833880064 maxSize:208470016 maxEntrySize:104235008
+14 silly idealTree buildDeps
+15 silly fetch manifest @whiskeysockets/baileys@*
+16 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets%2fbaileys 1257ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys set size:202548 disposed:false
+19 silly fetch manifest audio-decode@^2.1.3
+20 silly packumentCache full:https://registry.npmjs.org/audio-decode cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/audio-decode 125ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/audio-decode set size:107159 disposed:false
+23 silly fetch manifest jimp@^1.6.0
+24 silly packumentCache full:https://registry.npmjs.org/jimp cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/jimp 214ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/jimp set size:1198045 disposed:false
+27 silly fetch manifest link-preview-js@^3.0.0
+28 silly packumentCache full:https://registry.npmjs.org/link-preview-js cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/link-preview-js 124ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/link-preview-js set size:145310 disposed:false
+31 silly fetch manifest sharp@*
+32 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/sharp 113ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/sharp set size:1043822 disposed:false
+35 silly placeDep ROOT @whiskeysockets/baileys@7.0.0-rc.9 OK for: bot-wa@1.0.0 want: *
+36 silly placeDep ROOT sharp@0.34.5 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: *
+37 silly fetch manifest @cacheable/node-cache@^1.4.0
+38 silly packumentCache full:https://registry.npmjs.org/@cacheable%2fnode-cache cache-miss
+39 silly fetch manifest @hapi/boom@^9.1.3
+40 silly packumentCache full:https://registry.npmjs.org/@hapi%2fboom cache-miss
+41 silly fetch manifest async-mutex@^0.5.0
+42 silly packumentCache full:https://registry.npmjs.org/async-mutex cache-miss
+43 silly fetch manifest libsignal@git+https://github.com/whiskeysockets/libsignal-node.git
+44 silly fetch manifest lru-cache@^11.1.0
+45 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+46 silly fetch manifest music-metadata@^11.7.0
+47 silly packumentCache full:https://registry.npmjs.org/music-metadata cache-miss
+48 silly fetch manifest p-queue@^9.0.0
+49 silly packumentCache full:https://registry.npmjs.org/p-queue cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/@hapi%2fboom 295ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/@hapi%2fboom set size:55492 disposed:false
+52 silly fetch manifest pino@^9.6
+53 silly packumentCache full:https://registry.npmjs.org/pino cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/pino 167ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/pino set size:1274379 disposed:false
+56 silly fetch manifest protobufjs@^7.2.4
+57 silly packumentCache full:https://registry.npmjs.org/protobufjs cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/async-mutex 595ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/async-mutex set size:76106 disposed:false
+60 silly fetch manifest ws@^8.13.0
+61 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/lru-cache 616ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:439357 disposed:false
+64 silly fetch manifest semver@^7.7.3
+65 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/music-metadata 665ms (cache revalidated)
+67 silly packumentCache full:https://registry.npmjs.org/music-metadata set size:1277084 disposed:false
+68 silly fetch manifest @img/colour@^1.0.0
+69 silly packumentCache full:https://registry.npmjs.org/@img%2fcolour cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/p-queue 795ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/p-queue set size:174455 disposed:false
+72 silly fetch manifest detect-libc@^2.1.2
+73 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/@cacheable%2fnode-cache 901ms (cache revalidated)
+75 silly packumentCache full:https://registry.npmjs.org/@cacheable%2fnode-cache set size:95890 disposed:false
+76 silly fetch manifest @img/sharp-wasm32@0.34.5
+77 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/ws 358ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/ws set size:415737 disposed:false
+80 silly fetch manifest @img/sharp-linux-arm@0.34.5
+81 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/protobufjs 429ms (cache revalidated)
+83 silly packumentCache full:https://registry.npmjs.org/protobufjs set size:618204 disposed:false
+84 silly fetch manifest @img/sharp-linux-x64@0.34.5
+85 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/detect-libc 303ms (cache revalidated)
+87 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:47861 disposed:false
+88 silly fetch manifest @img/sharp-win32-x64@0.34.5
+89 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/semver 568ms (cache revalidated)
+91 silly packumentCache full:https://registry.npmjs.org/semver set size:229620 disposed:false
+92 silly fetch manifest @img/sharp-darwin-x64@0.34.5
+93 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm 345ms (cache revalidated)
+95 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:68738 disposed:false
+96 silly fetch manifest @img/sharp-win32-ia32@0.34.5
+97 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-x64 308ms (cache revalidated)
+99 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 set size:68399 disposed:false
+100 silly fetch manifest @img/sharp-linux-arm64@0.34.5
+101 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/@img%2fcolour 563ms (cache revalidated)
+103 silly packumentCache full:https://registry.npmjs.org/@img%2fcolour set size:9701 disposed:false
+104 silly fetch manifest @img/sharp-linux-ppc64@0.34.5
+105 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-x64 232ms (cache revalidated)
+107 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 set size:66410 disposed:false
+108 silly fetch manifest @img/sharp-linux-s390x@0.34.5
+109 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-x64 229ms (cache revalidated)
+111 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:69307 disposed:false
+112 silly fetch manifest @img/sharp-win32-arm64@0.34.5
+113 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm64 215ms (cache revalidated)
+115 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:69319 disposed:false
+116 silly fetch manifest @img/sharp-darwin-arm64@0.34.5
+117 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-ppc64 214ms (cache revalidated)
+119 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:34020 disposed:false
+120 silly fetch manifest @img/sharp-linux-riscv64@0.34.5
+121 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 717ms (cache revalidated)
+123 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:63361 disposed:false
+124 silly fetch manifest @img/sharp-linuxmusl-x64@0.34.5
+125 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-arm64 200ms (cache revalidated)
+127 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:25986 disposed:false
+128 silly fetch manifest @img/sharp-linuxmusl-arm64@0.34.5
+129 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-riscv64 164ms (cache revalidated)
+131 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 set size:11103 disposed:false
+132 silly fetch manifest @img/sharp-libvips-linux-arm@1.2.4
+133 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-arm64 193ms (cache revalidated)
+135 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:70255 disposed:false
+136 silly fetch manifest @img/sharp-libvips-linux-x64@1.2.4
+137 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 184ms (cache revalidated)
+139 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:69517 disposed:false
+140 silly fetch manifest @img/sharp-libvips-darwin-x64@1.2.4
+141 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-ia32 486ms (cache revalidated)
+143 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:67044 disposed:false
+144 silly fetch manifest @img/sharp-libvips-linux-arm64@1.2.4
+145 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-s390x 490ms (cache revalidated)
+147 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:67280 disposed:false
+148 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.2.4
+149 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+150 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 294ms (cache revalidated)
+151 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:70439 disposed:false
+152 silly fetch manifest @img/sharp-libvips-linux-s390x@1.2.4
+153 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 274ms (cache revalidated)
+155 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:62856 disposed:false
+156 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.2.4
+157 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+158 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 279ms (cache revalidated)
+159 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 set size:60895 disposed:false
+160 silly fetch manifest @img/sharp-libvips-linux-riscv64@1.2.4
+161 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 275ms (cache revalidated)
+163 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:56051 disposed:false
+164 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.2.4
+165 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 228ms (cache revalidated)
+167 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:46965 disposed:false
+168 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.2.4
+169 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 301ms (cache revalidated)
+171 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:59753 disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 170ms (cache revalidated)
+173 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:55949 disposed:false
+174 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 193ms (cache revalidated)
+175 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:56688 disposed:false
+176 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 192ms (cache revalidated)
+177 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:57954 disposed:false
+178 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 171ms (cache revalidated)
+179 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:58629 disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 770ms (cache revalidated)
+181 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 set size:32935 disposed:false
+182 silly fetch manifest bufferutil@^4.0.1
+183 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+184 http fetch GET 200 https://registry.npmjs.org/bufferutil 126ms (cache revalidated)
+185 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:52763 disposed:false
+186 silly fetch manifest utf-8-validate@>=5.0.2
+187 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 123ms (cache revalidated)
+189 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:77148 disposed:false
+190 silly placeDep ROOT @cacheable/node-cache@1.7.6 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^1.4.0
+191 silly placeDep ROOT @hapi/boom@9.1.4 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^9.1.3
+192 silly placeDep ROOT async-mutex@0.5.0 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^0.5.0
+193 silly placeDep ROOT libsignal@2.0.1 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: git+https://github.com/whiskeysockets/libsignal-node.git
+194 silly placeDep ROOT lru-cache@11.3.5 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^11.1.0
+195 silly placeDep ROOT music-metadata@11.12.3 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^11.7.0
+196 silly placeDep ROOT p-queue@9.1.2 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^9.0.0
+197 silly placeDep ROOT pino@9.14.0 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^9.6
+198 silly placeDep ROOT protobufjs@7.5.5 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^7.2.4
+199 silly placeDep ROOT ws@8.20.0 OK for: @whiskeysockets/baileys@7.0.0-rc.9 want: ^8.13.0
+200 silly fetch manifest keyv@^5.5.5
+201 silly packumentCache full:https://registry.npmjs.org/keyv cache-miss
+202 silly fetch manifest cacheable@^2.3.1
+203 silly packumentCache full:https://registry.npmjs.org/cacheable cache-miss
+204 silly fetch manifest hookified@^1.14.0
+205 silly packumentCache full:https://registry.npmjs.org/hookified cache-miss
+206 silly fetch manifest @hapi/hoek@9.x.x
+207 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek cache-miss
+208 silly fetch manifest tslib@^2.4.0
+209 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+210 silly fetch manifest curve25519-js@^0.0.4
+211 silly packumentCache full:https://registry.npmjs.org/curve25519-js cache-miss
+212 silly fetch manifest protobufjs@6.8.8
+213 silly packumentCache full:https://registry.npmjs.org/protobufjs cache-hit
+214 silly fetch manifest debug@^4.4.3
+215 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/hookified 174ms (cache revalidated)
+217 silly packumentCache full:https://registry.npmjs.org/hookified set size:143273 disposed:false
+218 silly fetch manifest strtok3@^10.3.4
+219 silly packumentCache full:https://registry.npmjs.org/strtok3 cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/cacheable 199ms (cache revalidated)
+221 silly packumentCache full:https://registry.npmjs.org/cacheable set size:153828 disposed:false
+222 silly fetch manifest win-guid@^0.2.1
+223 silly packumentCache full:https://registry.npmjs.org/win-guid cache-miss
+224 http fetch GET 200 https://registry.npmjs.org/keyv 232ms (cache revalidated)
+225 silly packumentCache full:https://registry.npmjs.org/keyv set size:215840 disposed:false
+226 silly fetch manifest file-type@^21.3.1
+227 silly packumentCache full:https://registry.npmjs.org/file-type cache-miss
+228 http fetch GET 200 https://registry.npmjs.org/debug 209ms (cache revalidated)
+229 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+230 silly fetch manifest media-typer@^1.1.0
+231 silly packumentCache full:https://registry.npmjs.org/media-typer cache-miss
+232 http fetch GET 200 https://registry.npmjs.org/curve25519-js 265ms (cache revalidated)
+233 silly packumentCache full:https://registry.npmjs.org/curve25519-js set size:15295 disposed:false
+234 silly fetch manifest token-types@^6.1.2
+235 silly packumentCache full:https://registry.npmjs.org/token-types cache-miss
+236 http fetch GET 200 https://registry.npmjs.org/tslib 436ms (cache revalidated)
+237 silly packumentCache full:https://registry.npmjs.org/tslib set size:108760 disposed:false
+238 silly fetch manifest content-type@^1.0.5
+239 silly packumentCache full:https://registry.npmjs.org/content-type cache-miss
+240 http fetch GET 200 https://registry.npmjs.org/strtok3 283ms (cache revalidated)
+241 silly packumentCache full:https://registry.npmjs.org/strtok3 set size:412240 disposed:false
+242 silly fetch manifest @tokenizer/token@^0.3.0
+243 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken cache-miss
+244 http fetch GET 200 https://registry.npmjs.org/file-type 288ms (cache revalidated)
+245 silly packumentCache full:https://registry.npmjs.org/file-type set size:558008 disposed:false
+246 silly fetch manifest uint8array-extras@^1.5.0
+247 silly packumentCache full:https://registry.npmjs.org/uint8array-extras cache-miss
+248 http fetch GET 200 https://registry.npmjs.org/win-guid 394ms (cache revalidated)
+249 silly packumentCache full:https://registry.npmjs.org/win-guid set size:11017 disposed:false
+250 silly fetch manifest @borewit/text-codec@^0.2.2
+251 silly packumentCache full:https://registry.npmjs.org/@borewit%2ftext-codec cache-miss
+252 http fetch GET 200 https://registry.npmjs.org/media-typer 357ms (cache revalidated)
+253 silly packumentCache full:https://registry.npmjs.org/media-typer set size:20873 disposed:false
+254 silly fetch manifest eventemitter3@^5.0.1
+255 silly packumentCache full:https://registry.npmjs.org/eventemitter3 cache-miss
+256 http fetch GET 200 https://registry.npmjs.org/token-types 368ms (cache revalidated)
+257 silly packumentCache full:https://registry.npmjs.org/token-types set size:155133 disposed:false
+258 silly fetch manifest p-timeout@^7.0.0
+259 silly packumentCache full:https://registry.npmjs.org/p-timeout cache-miss
+260 http fetch GET 200 https://registry.npmjs.org/@hapi%2fhoek 741ms (cache revalidated)
+261 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek set size:121471 disposed:false
+262 silly fetch manifest sonic-boom@^4.0.1
+263 silly packumentCache full:https://registry.npmjs.org/sonic-boom cache-miss
+264 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 325ms (cache revalidated)
+265 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken set size:11833 disposed:false
+266 silly fetch manifest atomic-sleep@^1.0.0
+267 silly packumentCache full:https://registry.npmjs.org/atomic-sleep cache-miss
+268 http fetch GET 200 https://registry.npmjs.org/uint8array-extras 266ms (cache revalidated)
+269 silly packumentCache full:https://registry.npmjs.org/uint8array-extras set size:36606 disposed:false
+270 silly fetch manifest real-require@^0.2.0
+271 silly packumentCache full:https://registry.npmjs.org/real-require cache-miss
+272 http fetch GET 200 https://registry.npmjs.org/content-type 410ms (cache revalidated)
+273 silly packumentCache full:https://registry.npmjs.org/content-type set size:17311 disposed:false
+274 silly fetch manifest thread-stream@^3.0.0
+275 silly packumentCache full:https://registry.npmjs.org/thread-stream cache-miss
+276 http fetch GET 200 https://registry.npmjs.org/eventemitter3 270ms (cache revalidated)
+277 silly packumentCache full:https://registry.npmjs.org/eventemitter3 set size:92292 disposed:false
+278 silly fetch manifest @pinojs/redact@^0.4.0
+279 silly packumentCache full:https://registry.npmjs.org/@pinojs%2fredact cache-miss
+280 http fetch GET 200 https://registry.npmjs.org/@borewit%2ftext-codec 323ms (cache revalidated)
+281 silly packumentCache full:https://registry.npmjs.org/@borewit%2ftext-codec set size:15427 disposed:false
+282 silly fetch manifest process-warning@^5.0.0
+283 silly packumentCache full:https://registry.npmjs.org/process-warning cache-miss
+284 http fetch GET 200 https://registry.npmjs.org/p-timeout 269ms (cache revalidated)
+285 silly packumentCache full:https://registry.npmjs.org/p-timeout set size:60739 disposed:false
+286 silly fetch manifest on-exit-leak-free@^2.1.0
+287 silly packumentCache full:https://registry.npmjs.org/on-exit-leak-free cache-miss
+288 http fetch GET 200 https://registry.npmjs.org/sonic-boom 357ms (cache revalidated)
+289 silly packumentCache full:https://registry.npmjs.org/sonic-boom set size:170649 disposed:false
+290 silly fetch manifest pino-std-serializers@^7.0.0
+291 silly packumentCache full:https://registry.npmjs.org/pino-std-serializers cache-miss
+292 http fetch GET 200 https://registry.npmjs.org/real-require 291ms (cache revalidated)
+293 silly packumentCache full:https://registry.npmjs.org/real-require set size:10884 disposed:false
+294 silly fetch manifest safe-stable-stringify@^2.3.1
+295 silly packumentCache full:https://registry.npmjs.org/safe-stable-stringify cache-miss
+296 http fetch GET 200 https://registry.npmjs.org/thread-stream 288ms (cache revalidated)
+297 silly packumentCache full:https://registry.npmjs.org/thread-stream set size:127672 disposed:false
+298 silly fetch manifest quick-format-unescaped@^4.0.3
+299 silly packumentCache full:https://registry.npmjs.org/quick-format-unescaped cache-miss
+300 http fetch GET 200 https://registry.npmjs.org/atomic-sleep 349ms (cache revalidated)
+301 silly packumentCache full:https://registry.npmjs.org/atomic-sleep set size:5192 disposed:false
+302 silly fetch manifest pino-abstract-transport@^2.0.0
+303 silly packumentCache full:https://registry.npmjs.org/pino-abstract-transport cache-miss
+304 http fetch GET 200 https://registry.npmjs.org/on-exit-leak-free 268ms (cache revalidated)
+305 silly packumentCache full:https://registry.npmjs.org/on-exit-leak-free set size:18719 disposed:false
+306 silly fetch manifest @protobufjs/aspromise@^1.1.2
+307 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2faspromise cache-miss
+308 http fetch GET 200 https://registry.npmjs.org/process-warning 307ms (cache revalidated)
+309 silly packumentCache full:https://registry.npmjs.org/process-warning set size:32480 disposed:false
+310 silly fetch manifest @protobufjs/base64@^1.1.2
+311 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fbase64 cache-miss
+312 http fetch GET 200 https://registry.npmjs.org/@pinojs%2fredact 488ms (cache revalidated)
+313 silly packumentCache full:https://registry.npmjs.org/@pinojs%2fredact set size:16907 disposed:false
+314 silly fetch manifest @protobufjs/codegen@^2.0.4
+315 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fcodegen cache-miss
+316 http fetch GET 200 https://registry.npmjs.org/safe-stable-stringify 259ms (cache revalidated)
+317 silly packumentCache full:https://registry.npmjs.org/safe-stable-stringify set size:45091 disposed:false
+318 silly fetch manifest @protobufjs/eventemitter@^1.1.0
+319 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2feventemitter cache-miss
+320 http fetch GET 200 https://registry.npmjs.org/pino-std-serializers 294ms (cache revalidated)
+321 silly packumentCache full:https://registry.npmjs.org/pino-std-serializers set size:96176 disposed:false
+322 silly fetch manifest @protobufjs/fetch@^1.1.0
+323 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffetch cache-miss
+324 http fetch GET 200 https://registry.npmjs.org/quick-format-unescaped 273ms (cache revalidated)
+325 silly packumentCache full:https://registry.npmjs.org/quick-format-unescaped set size:36121 disposed:false
+326 silly fetch manifest @protobufjs/float@^1.0.2
+327 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffloat cache-miss
+328 http fetch GET 200 https://registry.npmjs.org/pino-abstract-transport 264ms (cache revalidated)
+329 silly packumentCache full:https://registry.npmjs.org/pino-abstract-transport set size:28687 disposed:false
+330 silly fetch manifest @protobufjs/inquire@^1.1.0
+331 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2finquire cache-miss
+332 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fbase64 273ms (cache revalidated)
+333 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fbase64 set size:14176 disposed:false
+334 silly fetch manifest @protobufjs/path@^1.1.2
+335 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpath cache-miss
+336 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fcodegen 228ms (cache revalidated)
+337 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fcodegen set size:22005 disposed:false
+338 silly fetch manifest @protobufjs/pool@^1.1.0
+339 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpool cache-miss
+340 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffloat 236ms (cache revalidated)
+341 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffloat set size:9957 disposed:false
+342 silly fetch manifest @protobufjs/utf8@^1.1.0
+343 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2futf8 cache-miss
+344 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2faspromise 497ms (cache revalidated)
+345 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2faspromise set size:11438 disposed:false
+346 silly fetch manifest @types/node@>=13.7.0
+347 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+348 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpath 205ms (cache revalidated)
+349 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpath set size:10241 disposed:false
+350 silly fetch manifest long@^5.0.0
+351 silly packumentCache full:https://registry.npmjs.org/long cache-miss
+352 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2finquire 271ms (cache revalidated)
+353 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2finquire set size:6983 disposed:false
+354 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpool 199ms (cache revalidated)
+355 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpool set size:10727 disposed:false
+356 http fetch GET 200 https://registry.npmjs.org/long 132ms (cache revalidated)
+357 silly packumentCache full:https://registry.npmjs.org/long set size:80704 disposed:false
+358 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2futf8 216ms (cache revalidated)
+359 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2futf8 set size:13750 disposed:false
+360 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2feventemitter 542ms (cache revalidated)
+361 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2feventemitter set size:11306 disposed:false
+362 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffetch 544ms (cache revalidated)
+363 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffetch set size:10099 disposed:false
+364 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 400ms (cache revalidated)
+365 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:10972342 disposed:false
+366 silly placeDep ROOT cacheable@2.3.4 OK for: @cacheable/node-cache@1.7.6 want: ^2.3.1
+367 silly placeDep ROOT hookified@1.15.1 OK for: @cacheable/node-cache@1.7.6 want: ^1.14.0
+368 silly placeDep ROOT keyv@5.6.0 OK for: @cacheable/node-cache@1.7.6 want: ^5.5.5
+369 silly fetch manifest hookified@^1.15.0
+370 silly packumentCache full:https://registry.npmjs.org/hookified cache-hit
+371 silly fetch manifest keyv@^5.6.0
+372 silly packumentCache full:https://registry.npmjs.org/keyv cache-hit
+373 silly fetch manifest qified@^0.9.0
+374 silly packumentCache full:https://registry.npmjs.org/qified cache-miss
+375 silly fetch manifest @cacheable/utils@^2.4.0
+376 silly packumentCache full:https://registry.npmjs.org/@cacheable%2futils cache-miss
+377 silly fetch manifest @cacheable/memory@^2.0.8
+378 silly packumentCache full:https://registry.npmjs.org/@cacheable%2fmemory cache-miss
+379 silly fetch manifest @keyv/serialize@^1.1.1
+380 silly packumentCache full:https://registry.npmjs.org/@keyv%2fserialize cache-miss
+381 http fetch GET 200 https://registry.npmjs.org/qified 186ms (cache revalidated)
+382 silly packumentCache full:https://registry.npmjs.org/qified set size:58539 disposed:false
+383 http fetch GET 200 https://registry.npmjs.org/@keyv%2fserialize 466ms (cache revalidated)
+384 silly packumentCache full:https://registry.npmjs.org/@keyv%2fserialize set size:23172 disposed:false
+385 http fetch GET 200 https://registry.npmjs.org/@cacheable%2fmemory 487ms (cache revalidated)
+386 silly packumentCache full:https://registry.npmjs.org/@cacheable%2fmemory set size:49828 disposed:false
+387 http fetch GET 200 https://registry.npmjs.org/@cacheable%2futils 661ms (cache revalidated)
+388 silly packumentCache full:https://registry.npmjs.org/@cacheable%2futils set size:60483 disposed:false
+389 silly placeDep ROOT @hapi/hoek@9.3.0 OK for: @hapi/boom@9.1.4 want: 9.x.x
+390 silly placeDep ROOT tslib@2.8.1 OK for: async-mutex@0.5.0 want: ^2.4.0
+391 silly placeDep ROOT @cacheable/memory@2.0.8 OK for: cacheable@2.3.4 want: ^2.0.8
+392 silly placeDep ROOT @cacheable/utils@2.4.1 OK for: cacheable@2.3.4 want: ^2.4.0
+393 silly placeDep ROOT qified@0.9.1 OK for: cacheable@2.3.4 want: ^0.9.0
+394 silly fetch manifest @keyv/bigmap@^1.3.1
+395 silly packumentCache full:https://registry.npmjs.org/@keyv%2fbigmap cache-miss
+396 silly fetch manifest hashery@^1.5.1
+397 silly packumentCache full:https://registry.npmjs.org/hashery cache-miss
+398 silly fetch manifest hookified@^2.1.1
+399 silly packumentCache full:https://registry.npmjs.org/hookified cache-hit
+400 http fetch GET 200 https://registry.npmjs.org/hashery 93ms (cache revalidated)
+401 silly packumentCache full:https://registry.npmjs.org/hashery set size:75282 disposed:false
+402 http fetch GET 200 https://registry.npmjs.org/@keyv%2fbigmap 395ms (cache revalidated)
+403 silly packumentCache full:https://registry.npmjs.org/@keyv%2fbigmap set size:27467 disposed:false
+404 silly placeDep ROOT @keyv/bigmap@1.3.1 OK for: @cacheable/memory@2.0.8 want: ^1.3.1
+405 silly fetch manifest hashery@^1.4.0
+406 silly packumentCache full:https://registry.npmjs.org/hashery cache-hit
+407 silly placeDep ROOT hashery@1.5.1 OK for: @cacheable/utils@2.4.1 want: ^1.5.1
+408 silly placeDep ROOT @keyv/serialize@1.1.1 OK for: keyv@5.6.0 want: ^1.1.1
+409 silly placeDep ROOT curve25519-js@0.0.4 OK for: @whiskeysockets/libsignal-node@2.0.1 want: ^0.0.4
+410 silly placeDep node_modules/libsignal protobufjs@6.8.8 OK for: @whiskeysockets/libsignal-node@2.0.1 want: 6.8.8
+411 silly fetch manifest long@^4.0.0
+412 silly packumentCache full:https://registry.npmjs.org/long cache-hit
+413 silly fetch manifest @types/long@^4.0.0
+414 silly packumentCache full:https://registry.npmjs.org/@types%2flong cache-miss
+415 silly fetch manifest @types/node@^10.1.0
+416 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+417 http cache https://registry.npmjs.org/@types%2fnode 117ms (cache hit)
+418 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:10972342 disposed:false
+419 http fetch GET 200 https://registry.npmjs.org/@types%2flong 733ms (cache revalidated)
+420 silly packumentCache full:https://registry.npmjs.org/@types%2flong set size:28711 disposed:false
+421 silly placeDep ROOT @borewit/text-codec@0.2.2 OK for: music-metadata@11.12.3 want: ^0.2.2
+422 silly placeDep ROOT @tokenizer/token@0.3.0 OK for: music-metadata@11.12.3 want: ^0.3.0
+423 silly placeDep ROOT content-type@1.0.5 OK for: music-metadata@11.12.3 want: ^1.0.5
+424 silly placeDep ROOT debug@4.4.3 OK for: music-metadata@11.12.3 want: ^4.4.3
+425 silly placeDep ROOT file-type@21.3.4 OK for: music-metadata@11.12.3 want: ^21.3.1
+426 silly placeDep ROOT media-typer@1.1.0 OK for: music-metadata@11.12.3 want: ^1.1.0
+427 silly placeDep ROOT strtok3@10.3.5 OK for: music-metadata@11.12.3 want: ^10.3.4
+428 silly placeDep ROOT token-types@6.1.2 OK for: music-metadata@11.12.3 want: ^6.1.2
+429 silly placeDep ROOT uint8array-extras@1.5.0 OK for: music-metadata@11.12.3 want: ^1.5.0
+430 silly placeDep ROOT win-guid@0.2.1 OK for: music-metadata@11.12.3 want: ^0.2.1
+431 silly fetch manifest ms@^2.1.3
+432 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+433 silly fetch manifest token-types@^6.1.1
+434 silly packumentCache full:https://registry.npmjs.org/token-types cache-hit
+435 silly fetch manifest uint8array-extras@^1.4.0
+436 silly packumentCache full:https://registry.npmjs.org/uint8array-extras cache-hit
+437 silly fetch manifest @tokenizer/inflate@^0.4.1
+438 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2finflate cache-miss
+439 silly fetch manifest ieee754@^1.2.1
+440 silly packumentCache full:https://registry.npmjs.org/ieee754 cache-miss
+441 http fetch GET 200 https://registry.npmjs.org/ieee754 96ms (cache revalidated)
+442 silly packumentCache full:https://registry.npmjs.org/ieee754 set size:34910 disposed:false
+443 http fetch GET 200 https://registry.npmjs.org/ms 124ms (cache revalidated)
+444 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+445 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2finflate 133ms (cache revalidated)
+446 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2finflate set size:32390 disposed:false
+447 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+448 silly placeDep ROOT @tokenizer/inflate@0.4.1 OK for: file-type@21.3.4 want: ^0.4.1
+449 silly placeDep ROOT eventemitter3@5.0.4 OK for: p-queue@9.1.2 want: ^5.0.1
+450 silly placeDep ROOT p-timeout@7.0.1 OK for: p-queue@9.1.2 want: ^7.0.0
+451 silly placeDep ROOT @pinojs/redact@0.4.0 OK for: pino@9.14.0 want: ^0.4.0
+452 silly placeDep ROOT atomic-sleep@1.0.0 OK for: pino@9.14.0 want: ^1.0.0
+453 silly placeDep ROOT on-exit-leak-free@2.1.2 OK for: pino@9.14.0 want: ^2.1.0
+454 silly placeDep ROOT pino-abstract-transport@2.0.0 OK for: pino@9.14.0 want: ^2.0.0
+455 silly placeDep ROOT pino-std-serializers@7.1.0 OK for: pino@9.14.0 want: ^7.0.0
+456 silly placeDep ROOT process-warning@5.0.0 OK for: pino@9.14.0 want: ^5.0.0
+457 silly placeDep ROOT quick-format-unescaped@4.0.4 OK for: pino@9.14.0 want: ^4.0.3
+458 silly placeDep ROOT real-require@0.2.0 OK for: pino@9.14.0 want: ^0.2.0
+459 silly placeDep ROOT safe-stable-stringify@2.5.0 OK for: pino@9.14.0 want: ^2.3.1
+460 silly placeDep ROOT sonic-boom@4.2.1 OK for: pino@9.14.0 want: ^4.0.1
+461 silly placeDep ROOT thread-stream@3.1.0 OK for: pino@9.14.0 want: ^3.0.0
+462 silly fetch manifest split2@^4.0.0
+463 silly packumentCache full:https://registry.npmjs.org/split2 cache-miss
+464 http fetch GET 200 https://registry.npmjs.org/split2 77ms (cache revalidated)
+465 silly packumentCache full:https://registry.npmjs.org/split2 set size:47438 disposed:false
+466 silly placeDep ROOT split2@4.2.0 OK for: pino-abstract-transport@2.0.0 want: ^4.0.0
+467 silly placeDep ROOT @protobufjs/aspromise@1.1.2 OK for: protobufjs@7.5.5 want: ^1.1.2
+468 silly placeDep ROOT @protobufjs/base64@1.1.2 OK for: protobufjs@7.5.5 want: ^1.1.2
+469 silly placeDep ROOT @protobufjs/codegen@2.0.4 OK for: protobufjs@7.5.5 want: ^2.0.4
+470 silly placeDep ROOT @protobufjs/eventemitter@1.1.0 OK for: protobufjs@7.5.5 want: ^1.1.0
+471 silly placeDep ROOT @protobufjs/fetch@1.1.0 OK for: protobufjs@7.5.5 want: ^1.1.0
+472 silly placeDep ROOT @protobufjs/float@1.0.2 OK for: protobufjs@7.5.5 want: ^1.0.2
+473 silly placeDep ROOT @protobufjs/inquire@1.1.0 OK for: protobufjs@7.5.5 want: ^1.1.0
+474 silly placeDep ROOT @protobufjs/path@1.1.2 OK for: protobufjs@7.5.5 want: ^1.1.2
+475 silly placeDep ROOT @protobufjs/pool@1.1.0 OK for: protobufjs@7.5.5 want: ^1.1.0
+476 silly placeDep ROOT @protobufjs/utf8@1.1.0 OK for: protobufjs@7.5.5 want: ^1.1.0
+477 silly placeDep ROOT @types/node@25.6.0 OK for: protobufjs@7.5.5 want: >=13.7.0
+478 silly placeDep ROOT long@5.3.2 OK for: protobufjs@7.5.5 want: ^5.0.0
+479 silly fetch manifest undici-types@~7.19.0
+480 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+481 http fetch GET 200 https://registry.npmjs.org/undici-types 95ms (cache revalidated)
+482 silly packumentCache full:https://registry.npmjs.org/undici-types set size:210150 disposed:false
+483 silly placeDep ROOT undici-types@7.19.2 OK for: @types/node@25.6.0 want: ~7.19.0
+484 silly placeDep node_modules/qified hookified@2.1.1 OK for: qified@0.9.1 want: ^2.1.1
+485 silly placeDep ROOT @img/colour@1.1.0 OK for: sharp@0.34.5 want: ^1.0.0
+486 silly placeDep ROOT @img/sharp-darwin-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+487 silly placeDep ROOT @img/sharp-darwin-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+488 silly placeDep ROOT @img/sharp-libvips-darwin-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+489 silly placeDep ROOT @img/sharp-libvips-darwin-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+490 silly placeDep ROOT @img/sharp-libvips-linux-arm@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+491 silly placeDep ROOT @img/sharp-libvips-linux-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+492 silly placeDep ROOT @img/sharp-libvips-linux-ppc64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+493 silly placeDep ROOT @img/sharp-libvips-linux-riscv64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+494 silly placeDep ROOT @img/sharp-libvips-linux-s390x@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+495 silly placeDep ROOT @img/sharp-libvips-linux-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+496 silly placeDep ROOT @img/sharp-libvips-linuxmusl-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+497 silly placeDep ROOT @img/sharp-libvips-linuxmusl-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+498 silly placeDep ROOT @img/sharp-linux-arm@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+499 silly placeDep ROOT @img/sharp-linux-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+500 silly placeDep ROOT @img/sharp-linux-ppc64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+501 silly placeDep ROOT @img/sharp-linux-riscv64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+502 silly placeDep ROOT @img/sharp-linux-s390x@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+503 silly placeDep ROOT @img/sharp-linux-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+504 silly placeDep ROOT @img/sharp-linuxmusl-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+505 silly placeDep ROOT @img/sharp-linuxmusl-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+506 silly placeDep ROOT @img/sharp-wasm32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+507 silly placeDep ROOT @img/sharp-win32-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+508 silly placeDep ROOT @img/sharp-win32-ia32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+509 silly placeDep ROOT @img/sharp-win32-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+510 silly placeDep ROOT detect-libc@2.1.2 OK for: sharp@0.34.5 want: ^2.1.2
+511 silly placeDep ROOT semver@7.7.4 OK for: sharp@0.34.5 want: ^7.7.3
+512 silly fetch manifest @emnapi/runtime@^1.7.0
+513 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+514 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 431ms (cache revalidated)
+515 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:108129 disposed:false
+516 silly placeDep ROOT @emnapi/runtime@1.10.0 OK for: @img/sharp-wasm32@0.34.5 want: ^1.7.0
+517 silly placeDep ROOT ieee754@1.2.1 OK for: token-types@6.1.2 want: ^1.2.1
+518 silly placeDep ROOT @types/long@4.0.2 OK for: protobufjs@6.8.8 want: ^4.0.0
+519 silly placeDep node_modules/libsignal @types/node@10.17.60 OK for: protobufjs@6.8.8 want: ^10.1.0
+520 silly placeDep node_modules/libsignal long@4.0.0 OK for: protobufjs@6.8.8 want: ^4.0.0
+521 silly reify moves {}
+522 silly audit bulk request {
+522 silly audit   '@whiskeysockets/baileys': [ '7.0.0-rc.9' ],
+522 silly audit   sharp: [ '0.34.5' ],
+522 silly audit   '@cacheable/node-cache': [ '1.7.6' ],
+522 silly audit   '@hapi/boom': [ '9.1.4' ],
+522 silly audit   'async-mutex': [ '0.5.0' ],
+522 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+522 silly audit   'lru-cache': [ '11.3.5' ],
+522 silly audit   'music-metadata': [ '11.12.3' ],
+522 silly audit   'p-queue': [ '9.1.2' ],
+522 silly audit   pino: [ '9.14.0' ],
+522 silly audit   protobufjs: [ '7.5.5', '6.8.8' ],
+522 silly audit   ws: [ '8.20.0' ],
+522 silly audit   cacheable: [ '2.3.4' ],
+522 silly audit   hookified: [ '1.15.1', '2.1.1' ],
+522 silly audit   keyv: [ '5.6.0' ],
+522 silly audit   '@hapi/hoek': [ '9.3.0' ],
+522 silly audit   tslib: [ '2.8.1' ],
+522 silly audit   '@cacheable/memory': [ '2.0.8' ],
+522 silly audit   '@cacheable/utils': [ '2.4.1' ],
+522 silly audit   qified: [ '0.9.1' ],
+522 silly audit   '@keyv/bigmap': [ '1.3.1' ],
+522 silly audit   hashery: [ '1.5.1' ],
+522 silly audit   '@keyv/serialize': [ '1.1.1' ],
+522 silly audit   'curve25519-js': [ '0.0.4' ],
+522 silly audit   '@borewit/text-codec': [ '0.2.2' ],
+522 silly audit   '@tokenizer/token': [ '0.3.0' ],
+522 silly audit   'content-type': [ '1.0.5' ],
+522 silly audit   debug: [ '4.4.3' ],
+522 silly audit   'file-type': [ '21.3.4' ],
+522 silly audit   'media-typer': [ '1.1.0' ],
+522 silly audit   strtok3: [ '10.3.5' ],
+522 silly audit   'token-types': [ '6.1.2' ],
+522 silly audit   'uint8array-extras': [ '1.5.0' ],
+522 silly audit   'win-guid': [ '0.2.1' ],
+522 silly audit   ms: [ '2.1.3' ],
+522 silly audit   '@tokenizer/inflate': [ '0.4.1' ],
+522 silly audit   eventemitter3: [ '5.0.4' ],
+522 silly audit   'p-timeout': [ '7.0.1' ],
+522 silly audit   '@pinojs/redact': [ '0.4.0' ],
+522 silly audit   'atomic-sleep': [ '1.0.0' ],
+522 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+522 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+522 silly audit   'pino-std-serializers': [ '7.1.0' ],
+522 silly audit   'process-warning': [ '5.0.0' ],
+522 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+522 silly audit   'real-require': [ '0.2.0' ],
+522 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+522 silly audit   'sonic-boom': [ '4.2.1' ],
+522 silly audit   'thread-stream': [ '3.1.0' ],
+522 silly audit   split2: [ '4.2.0' ],
+522 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+522 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+522 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+522 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+522 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+522 silly audit   '@protobufjs/float': [ '1.0.2' ],
+522 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+522 silly audit   '@protobufjs/path': [ '1.1.2' ],
+522 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+522 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+522 silly audit   '@types/node': [ '25.6.0', '10.17.60' ],
+522 silly audit   long: [ '5.3.2', '4.0.0' ],
+522 silly audit   'undici-types': [ '7.19.2' ],
+522 silly audit   '@img/colour': [ '1.1.0' ],
+522 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+522 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+522 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+522 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+522 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+522 silly audit   'detect-libc': [ '2.1.2' ],
+522 silly audit   semver: [ '7.7.4' ],
+522 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+522 silly audit   ieee754: [ '1.2.1' ],
+522 silly audit   '@types/long': [ '4.0.2' ]
+522 silly audit }
+523 http cache @types/long@https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz 0ms (cache hit)
+524 http cache ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 0ms (cache hit)
+525 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+526 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+527 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+528 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.19.2.tgz 0ms (cache hit)
+529 http cache long@https://registry.npmjs.org/long/-/long-5.3.2.tgz 0ms (cache hit)
+530 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.6.0.tgz 1ms (cache hit)
+531 http cache @protobufjs/pool@https://registry.npmjs.org/@protobufjs/pool/-/pool-1.1.0.tgz 0ms (cache hit)
+532 http cache @protobufjs/path@https://registry.npmjs.org/@protobufjs/path/-/path-1.1.2.tgz 0ms (cache hit)
+533 http cache @protobufjs/inquire@https://registry.npmjs.org/@protobufjs/inquire/-/inquire-1.1.0.tgz 0ms (cache hit)
+534 http cache @protobufjs/utf8@https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.0.tgz 0ms (cache hit)
+535 http cache @protobufjs/fetch@https://registry.npmjs.org/@protobufjs/fetch/-/fetch-1.1.0.tgz 0ms (cache hit)
+536 http cache @protobufjs/eventemitter@https://registry.npmjs.org/@protobufjs/eventemitter/-/eventemitter-1.1.0.tgz 0ms (cache hit)
+537 http cache @protobufjs/base64@https://registry.npmjs.org/@protobufjs/base64/-/base64-1.1.2.tgz 0ms (cache hit)
+538 http cache @protobufjs/codegen@https://registry.npmjs.org/@protobufjs/codegen/-/codegen-2.0.4.tgz 0ms (cache hit)
+539 http cache @protobufjs/aspromise@https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz 0ms (cache hit)
+540 http cache split2@https://registry.npmjs.org/split2/-/split2-4.2.0.tgz 1ms (cache hit)
+541 http cache thread-stream@https://registry.npmjs.org/thread-stream/-/thread-stream-3.1.0.tgz 0ms (cache hit)
+542 http cache sonic-boom@https://registry.npmjs.org/sonic-boom/-/sonic-boom-4.2.1.tgz 0ms (cache hit)
+543 http cache safe-stable-stringify@https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz 1ms (cache hit)
+544 http cache real-require@https://registry.npmjs.org/real-require/-/real-require-0.2.0.tgz 0ms (cache hit)
+545 http cache quick-format-unescaped@https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz 0ms (cache hit)
+546 http cache process-warning@https://registry.npmjs.org/process-warning/-/process-warning-5.0.0.tgz 0ms (cache hit)
+547 http cache pino-std-serializers@https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-7.1.0.tgz 0ms (cache hit)
+548 http cache pino-abstract-transport@https://registry.npmjs.org/pino-abstract-transport/-/pino-abstract-transport-2.0.0.tgz 0ms (cache hit)
+549 http cache on-exit-leak-free@https://registry.npmjs.org/on-exit-leak-free/-/on-exit-leak-free-2.1.2.tgz 0ms (cache hit)
+550 http cache atomic-sleep@https://registry.npmjs.org/atomic-sleep/-/atomic-sleep-1.0.0.tgz 0ms (cache hit)
+551 http cache @pinojs/redact@https://registry.npmjs.org/@pinojs/redact/-/redact-0.4.0.tgz 0ms (cache hit)
+552 http cache p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-7.0.1.tgz 0ms (cache hit)
+553 http cache @tokenizer/inflate@https://registry.npmjs.org/@tokenizer/inflate/-/inflate-0.4.1.tgz 0ms (cache hit)
+554 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 1ms (cache hit)
+555 http cache eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz 0ms (cache hit)
+556 http cache win-guid@https://registry.npmjs.org/win-guid/-/win-guid-0.2.1.tgz 0ms (cache hit)
+557 http cache uint8array-extras@https://registry.npmjs.org/uint8array-extras/-/uint8array-extras-1.5.0.tgz 0ms (cache hit)
+558 http cache token-types@https://registry.npmjs.org/token-types/-/token-types-6.1.2.tgz 0ms (cache hit)
+559 http cache strtok3@https://registry.npmjs.org/strtok3/-/strtok3-10.3.5.tgz 0ms (cache hit)
+560 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz 0ms (cache hit)
+561 http cache file-type@https://registry.npmjs.org/file-type/-/file-type-21.3.4.tgz 0ms (cache hit)
+562 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 1ms (cache hit)
+563 http cache content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+564 http cache @tokenizer/token@https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz 0ms (cache hit)
+565 http cache @borewit/text-codec@https://registry.npmjs.org/@borewit/text-codec/-/text-codec-0.2.2.tgz 0ms (cache hit)
+566 http cache curve25519-js@https://registry.npmjs.org/curve25519-js/-/curve25519-js-0.0.4.tgz 0ms (cache hit)
+567 http cache @keyv/serialize@https://registry.npmjs.org/@keyv/serialize/-/serialize-1.1.1.tgz 0ms (cache hit)
+568 http cache hashery@https://registry.npmjs.org/hashery/-/hashery-1.5.1.tgz 0ms (cache hit)
+569 http cache @keyv/bigmap@https://registry.npmjs.org/@keyv/bigmap/-/bigmap-1.3.1.tgz 0ms (cache hit)
+570 http cache qified@https://registry.npmjs.org/qified/-/qified-0.9.1.tgz 0ms (cache hit)
+571 http cache @cacheable/utils@https://registry.npmjs.org/@cacheable/utils/-/utils-2.4.1.tgz 0ms (cache hit)
+572 http cache @cacheable/memory@https://registry.npmjs.org/@cacheable/memory/-/memory-2.0.8.tgz 0ms (cache hit)
+573 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+574 http cache @hapi/hoek@https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz 0ms (cache hit)
+575 http cache keyv@https://registry.npmjs.org/keyv/-/keyv-5.6.0.tgz 0ms (cache hit)
+576 http cache hookified@https://registry.npmjs.org/hookified/-/hookified-1.15.1.tgz 1ms (cache hit)
+577 http cache cacheable@https://registry.npmjs.org/cacheable/-/cacheable-2.3.4.tgz 0ms (cache hit)
+578 http cache ws@https://registry.npmjs.org/ws/-/ws-8.20.0.tgz 0ms (cache hit)
+579 http cache protobufjs@https://registry.npmjs.org/protobufjs/-/protobufjs-7.5.5.tgz 0ms (cache hit)
+580 http cache pino@https://registry.npmjs.org/pino/-/pino-9.14.0.tgz 0ms (cache hit)
+581 http cache p-queue@https://registry.npmjs.org/p-queue/-/p-queue-9.1.2.tgz 1ms (cache hit)
+582 http cache music-metadata@https://registry.npmjs.org/music-metadata/-/music-metadata-11.12.3.tgz 0ms (cache hit)
+583 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.3.5.tgz 0ms (cache hit)
+584 http cache async-mutex@https://registry.npmjs.org/async-mutex/-/async-mutex-0.5.0.tgz 0ms (cache hit)
+585 http cache @hapi/boom@https://registry.npmjs.org/@hapi/boom/-/boom-9.1.4.tgz 0ms (cache hit)
+586 http cache @cacheable/node-cache@https://registry.npmjs.org/@cacheable/node-cache/-/node-cache-1.7.6.tgz 0ms (cache hit)
+587 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 0ms (cache hit)
+588 http cache @whiskeysockets/baileys@https://registry.npmjs.org/@whiskeysockets/baileys/-/baileys-7.0.0-rc.9.tgz 0ms (cache hit)
+589 http cache @protobufjs/float@https://registry.npmjs.org/@protobufjs/float/-/float-1.0.2.tgz 0ms (cache hit)
+590 http cache hookified@https://registry.npmjs.org/hookified/-/hookified-2.1.1.tgz 1ms (cache hit)
+591 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-10.17.60.tgz 0ms (cache hit)
+592 http cache long@https://registry.npmjs.org/long/-/long-4.0.0.tgz 0ms (cache hit)
+593 http cache protobufjs@https://registry.npmjs.org/protobufjs/-/protobufjs-6.8.8.tgz 0ms (cache hit)
+594 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1181ms
+595 silly audit report {}
+596 http fetch GET 200 https://codeload.github.com/whiskeysockets/libsignal-node/tar.gz/1c30d7d7e76a3b0aa120b04dc6a26f5a12dccf67 1436ms (cache revalidated)
+597 silly packumentCache heap:833880064 maxSize:208470016 maxEntrySize:104235008
+598 info run @whiskeysockets/baileys@7.0.0-rc.9 preinstall node_modules/@whiskeysockets/baileys node ./engine-requirements.js
+599 info run @whiskeysockets/baileys@7.0.0-rc.9 preinstall { code: 0, signal: null }
+600 info run sharp@0.34.5 install node_modules/sharp node install/check.js || npm run build
+601 info run sharp@0.34.5 install { code: 0, signal: null }
+602 info run protobufjs@7.5.5 postinstall node_modules/protobufjs node scripts/postinstall
+603 info run protobufjs@6.8.8 postinstall node_modules/libsignal/node_modules/protobufjs node scripts/postinstall
+604 info run protobufjs@7.5.5 postinstall { code: 0, signal: null }
+605 info run protobufjs@6.8.8 postinstall { code: 0, signal: null }
+606 silly ADD node_modules/@types/long
+607 silly ADD node_modules/ieee754
+608 silly ADD node_modules/semver
+609 silly ADD node_modules/detect-libc
+610 silly ADD node_modules/@img/colour
+611 silly ADD node_modules/undici-types
+612 silly ADD node_modules/long
+613 silly ADD node_modules/@types/node
+614 silly ADD node_modules/@protobufjs/utf8
+615 silly ADD node_modules/@protobufjs/pool
+616 silly ADD node_modules/@protobufjs/path
+617 silly ADD node_modules/@protobufjs/inquire
+618 silly ADD node_modules/@protobufjs/float
+619 silly ADD node_modules/@protobufjs/fetch
+620 silly ADD node_modules/@protobufjs/eventemitter
+621 silly ADD node_modules/@protobufjs/codegen
+622 silly ADD node_modules/@protobufjs/base64
+623 silly ADD node_modules/@protobufjs/aspromise
+624 silly ADD node_modules/split2
+625 silly ADD node_modules/thread-stream
+626 silly ADD node_modules/sonic-boom
+627 silly ADD node_modules/safe-stable-stringify
+628 silly ADD node_modules/real-require
+629 silly ADD node_modules/quick-format-unescaped
+630 silly ADD node_modules/process-warning
+631 silly ADD node_modules/pino-std-serializers
+632 silly ADD node_modules/pino-abstract-transport
+633 silly ADD node_modules/on-exit-leak-free
+634 silly ADD node_modules/atomic-sleep
+635 silly ADD node_modules/@pinojs/redact
+636 silly ADD node_modules/p-timeout
+637 silly ADD node_modules/eventemitter3
+638 silly ADD node_modules/@tokenizer/inflate
+639 silly ADD node_modules/ms
+640 silly ADD node_modules/win-guid
+641 silly ADD node_modules/uint8array-extras
+642 silly ADD node_modules/token-types
+643 silly ADD node_modules/strtok3
+644 silly ADD node_modules/media-typer
+645 silly ADD node_modules/file-type
+646 silly ADD node_modules/debug
+647 silly ADD node_modules/content-type
+648 silly ADD node_modules/@tokenizer/token
+649 silly ADD node_modules/@borewit/text-codec
+650 silly ADD node_modules/curve25519-js
+651 silly ADD node_modules/@keyv/serialize
+652 silly ADD node_modules/hashery
+653 silly ADD node_modules/@keyv/bigmap
+654 silly ADD node_modules/qified
+655 silly ADD node_modules/qified/node_modules/hookified
+656 silly ADD node_modules/@cacheable/utils
+657 silly ADD node_modules/@cacheable/memory
+658 silly ADD node_modules/tslib
+659 silly ADD node_modules/@hapi/hoek
+660 silly ADD node_modules/keyv
+661 silly ADD node_modules/hookified
+662 silly ADD node_modules/cacheable
+663 silly ADD node_modules/ws
+664 silly ADD node_modules/protobufjs
+665 silly ADD node_modules/pino
+666 silly ADD node_modules/p-queue
+667 silly ADD node_modules/music-metadata
+668 silly ADD node_modules/lru-cache
+669 silly ADD node_modules/libsignal
+670 silly ADD node_modules/libsignal/node_modules/long
+671 silly ADD node_modules/libsignal/node_modules/@types/node
+672 silly ADD node_modules/libsignal/node_modules/protobufjs
+673 silly ADD node_modules/async-mutex
+674 silly ADD node_modules/@hapi/boom
+675 silly ADD node_modules/@cacheable/node-cache
+676 silly ADD node_modules/sharp
+677 silly ADD node_modules/@whiskeysockets/baileys
+678 verbose cwd /data/data/com.termux/files/home/bot-wa
+679 verbose os Linux 4.19.127+
+680 verbose node v25.8.2
+681 verbose npm  v11.12.1
+682 verbose exit 0
+683 info ok
